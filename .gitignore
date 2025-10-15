@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+.DS_Store
+
+# VS Code
+.vscode/
+.history/
+
+# Output + local caches
+out/
+logs/
+*.log
+
+# Local file mounts
+.z_bootstrap/

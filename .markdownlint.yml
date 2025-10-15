@@ -1,0 +1,35 @@
+# ─────────────────────────────────────────────
+# STOP_TOKENS: [lint_config, no_edit, codex_lock]
+# This file defines PHI's linter doctrine.
+# Do NOT modify automatically.
+# ─────────────────────────────────────────────
+default: true
+
+# enforce "-" for unordered lists
+MD004:
+  style: dash
+
+# List items should be indented the same number of spaces.
+MD007:
+  indent: 1
+
+# PHI Doctrine: Tabs are law. Spaces are heresy.
+MD010: false
+
+# Line length
+MD013:
+  line_length: 180
+  heading_line_length: 180
+  code_block_line_length: 0
+  tables: false
+  lists: false
+
+# Allow ordered lists
+MD029:
+  style: one
+
+# Inline HTML Warns if you include raw <div>, <span>, etc.
+MD033: false
+
+# Emphasis used instead of a heading Don’t fake headers with **bold**.
+MD036: false
