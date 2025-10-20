@@ -1,0 +1,15 @@
+OughtCore/
+├── LICENSE
+├── Makefile
+├── README.md
+├── docs/
+│   ├── architecture.md
+│   └── storage_layout.md
+├── meta/
+│   └── file_structure.txt
+├── out/
+│   └── OughtCore_20251015T1500_full.zip
+├── requirements-dev.txt
+├── requirements.txt
+└── tools/
+    └── hello_core.py
